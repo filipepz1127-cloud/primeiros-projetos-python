@@ -1,0 +1,16 @@
+print ("============ NOMES ESTILIZADOS =============")
+nome = (str(input("digite seu nome e vamos estilizar pra voce: ")))
+frase = (str(input("digite uma frase: ")))
+
+print ("tipos de estilos")
+print ("nome em maisculo: {}".format(nome.upper()))
+print ("nomes em minusculo {}".format(nome.lower()))
+print ("nome em formato de titulo {}".format(nome.title()))
+print("="*20)
+
+print ("estilo de frases")
+print ("normal {}".format (frase))
+print ("primeira letra maiscula {}".format (frase.capitalize()))
+print("trocando letras a por @ : {}".format (frase.replace('a', '@')))
+print ("separando frase, {}".format(frase.split()))
+
